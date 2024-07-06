@@ -1,0 +1,22 @@
+name: apple_lockdown_mode_example
+description: Demonstrates how to use the apple_lockdown_mode plugin.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apple_lockdown_mode:
+    path: ../
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
